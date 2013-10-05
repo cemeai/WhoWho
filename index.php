@@ -2,9 +2,8 @@
 <?php 
 
 	include 'session.php';
-	/*
+
 	include 'conexion.php';
->>>>>>> e091a066c4e368faabf4c0320fc543bbf0355d98
 
 	require_once("src/facebook.php");
 
@@ -19,7 +18,6 @@
 		  'scope' => 'read_stream',
 		  'redirect_uri' => 'http://whowho.herokuapp.com/'
 		);
-		*/
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
