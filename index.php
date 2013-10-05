@@ -42,18 +42,6 @@
 		<script src="/js/collapse-bootstrap.min.js"></script>
 		<script src="/js/bootstrap-collapse.js"></script>
 	
-	<?php
-      
-    /*GET PARRAFOS OHANA*/
-    $query = "SELECT * FROM questions"; 
-    $result= mysql_query($query) or die (mysql_error());
-
-	while($row = mysql_fetch_array($result))
-	  {
-	  echo $row['idQuestion'] . " " . $row['question'];
-	  echo "<br>";
-	  }
-	?>
         <title>WhoWho?</title>
 		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
 	</head>
