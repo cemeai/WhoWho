@@ -1129,7 +1129,7 @@ p.tit_cotizacion.titulo{
 
 
 @media screen and (min-width:970px){ 
-	#prs1.personaCont, #prs2.personaCont{
+	#prs1.personaCont, #prs2.personaCont, #prs4.personaCont{
 		margin-right: 100px;
 	}
 
