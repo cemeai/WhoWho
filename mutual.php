@@ -26,7 +26,6 @@
 
 				  						/* Get mutual friends of response */
 				  						$mutualFriends = $mutualFriendsResponse["mutualfriends"]["data"];
-
 				  						//var_dump($mutualfriends);
 
 				  						foreach ($mutualFriends as $mutualFriend) {
