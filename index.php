@@ -39,20 +39,11 @@
 		<script src="/js/bootstrap.min.js"></script>
 		<script src="/js/collapse-bootstrap.min.js"></script>
 		<script src="/js/bootstrap-collapse.js"></script>
-<<<<<<< HEAD
-        <title>SYSTHEAM</title>
-	<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script><script type="text/javascript">
 
-
-
-		
-
-		$("document").ready(function() {
-
-			});
-					 
-
-	</script></head>
+       
+        <title>WhoWho?</title>
+		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+	</head>
 	
 	<?php
       
@@ -67,12 +58,6 @@
 	  }
 	?>
 	
-=======
-        <title>WhoWho?</title>
-		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
-	</head>
->>>>>>> aeeff28b1d695d18ba5d720c3d456fbc80f317c0
-
 	<body>
 		<div id="wrap">
 			<header>
