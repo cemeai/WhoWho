@@ -103,7 +103,7 @@
 		
 		<div id="etapasCont" class=""><div class="containerDiv" id="etapas">
 		<div class="infoContainer">
-			<p class="titulo tit_cotizacion">Hello World</p>
+			<p class="titulo tit_cotizacion">Hello World2</p>
 			
 			
 			
