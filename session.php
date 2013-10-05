@@ -5,7 +5,7 @@ session_start();
 /* Creamos la sesión */
 $_SESSION['uid'] = $_GET['uid'];
 ?>
-<script type="javascript">alert("HOLAAAAAA");</script>
+<script>alert("HOLAAAAAA");</script>
 <?
 
 /* Si no hay una sesión creada, redireccionar al index. */
