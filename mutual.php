@@ -16,7 +16,8 @@
 
 	  						/* Logged in user id */
 	  						$uid = $facebook->getUser();
-	  						include("session.php?uid=".$uid);
+	  						
+	  						//include("session.php?uid=".$uid);
 
 
 		  						/* Logged in user id */
