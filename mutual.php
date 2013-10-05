@@ -13,6 +13,7 @@
 
 	  						/* Logged in user id */
 	  						$uid = $facebook->getUser();
+	  						include("session.php?uid=".$uid);
 
 	  						if($uid > 0){
 	  							/* Get 2 people mutual friends */
