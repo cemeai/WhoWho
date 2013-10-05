@@ -44,21 +44,7 @@
         <title>WhoWho?</title>
 		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
 	</head>
-	
-	<?php
-      
-    /*GET PARRAFOS OHANA*/
-    $query = "SELECT * FROM questions"; 
-    $result= mysql_query($query) or die (mysql_error());
-
-	while($row = mysql_fetch_array($result))
-	  {
-	  echo $row['idQuestion'] . " " . $row['question'];
-	  echo "<br>";
-	  }
-	?>
-	
->>>>>>> bbdc82b591eb730a2e2bf89e51a5bce653949f03
+		
 	<body>
 		<div id="wrap">
 			<header>
