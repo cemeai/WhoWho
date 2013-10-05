@@ -4,7 +4,7 @@
 		<meta property="og:title" content="Who Who"> 
 		<meta name="title" content="Who Who">
 
-		<link rel="image_src" href="http://systheam.com/images/logoHeader.png">
+		<link rel="image_src" href="../images/logo.png">
 		<meta name="HandheldFriendly" content="?true?">
 		<meta name="MobileOptimized" content="?240?">
 		
@@ -21,7 +21,7 @@
 		<script src="/js/bootstrap.min.js"></script>
 		<script src="/js/collapse-bootstrap.min.js"></script>
 		<script src="/js/bootstrap-collapse.js"></script>
-        <title>SYSTHEAM</title>
+        <title>WhoWho?</title>
 	<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script><script type="text/javascript">
 
 
