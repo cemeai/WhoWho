@@ -36,9 +36,9 @@
 		<link rel="stylesheet" type="text/css" href="../css/effects.css" />		     
 		<link href="../css/adipoli.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../js/validar.js"></script>	
-		<script src="/js/bootstrap.js"></script>
+		<!--<script src="/js/bootstrap.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
-		<!--<script src="/js/collapse-bootstrap.min.js"></script>-->
+		<script src="/js/collapse-bootstrap.min.js"></script>-->
 		<!--<script src="/js/bootstrap-collapse.js"></script>-->
         <title>WhoWho?</title>
 		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
