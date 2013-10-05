@@ -4,6 +4,7 @@ session_start();
 
 /* Creamos la sesión */
 $_SESSION['uid'] = $_GET['uid'];
+echo "HOLA2"  
 
 /* Si no hay una sesión creada, redireccionar al index. */
 if(empty($_SESSION['uid'])) { // Recuerda usar corchetes.
