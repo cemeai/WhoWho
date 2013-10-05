@@ -26,54 +26,29 @@
 		<meta name="viewport" content="?width=320?/">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <link rel="Shortcut Icon" type="image/x-icon" href="../images/icono.png">
-		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="../css/bootstrap-responsive.css">
-		<link rel="stylesheet" type="text/css" href="../css/reset.css">
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap-responsive.css" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/effects.css" />		     
+		<link href="../css/adipoli.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../js/validar.js"></script>	
 		<script src="/js/bootstrap.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
 		<script src="/js/collapse-bootstrap.min.js"></script>
 		<script src="/js/bootstrap-collapse.js"></script>
         <title>WhoWho?</title>
-		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script><script type="text/javascript">
-		$("document").ready(function() {
-
-			});
-					 
-
-				});
-		</script>
+		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
 	</head>
 
 	<body>
-	<div id="wrap">
-		
-<header>
-
-	
-	<div class="navbar navbar-inverse" style="bottom: 0;position: fixed;right: 0;left: 0;z-index: 1030;margin-bottom: 0;">
-		<div class="navbar-inner">
-			<div class="containerDiv">
-				
-				<div id="logoNavBar">
-					<a class="logoBar" href="#" name="top"><div id="logoWho_ft"></div></a>
-
-		<div id="wrap">		
+		<div id="wrap">
 			<header>
 				<div class="navbar navbar-inverse" style="bottom: 0;position: fixed;right: 0;left: 0;z-index: 1030;margin-bottom: 0;">
 					<div class="navbar-inner">
 						<div class="containerDiv">
 							<div id="logoNavBar">
-								<a class="logoBar" href="#" name="top"><div style="margin: 0 auto;
-								width: 100%;
-								max-width: 190px;
-								height: 38px;
-								float: left;
-								background-image: url(../images/logoblancohdr.png);
-								background-size: contain;
-								background-repeat: no-repeat;
-								cursor: pointer;
-								"></div></a>
+								<a class="logoBar" href="#" name="top"><div id="logoWho_ft"></div></a>
 							</div>
 							<div class="nav-collapse collapse">
 								<ul class="nav">
@@ -85,11 +60,13 @@
 					</div><!--/.navbar-inner -->
 				</div><!--/.navbar -->
 			</header>
-
+		
 			<div id="etapasCont" class="">
 				<div class="containerDiv" id="etapas">
 					<div class="infoContainer">
-						<p class="titulo tit_cotizacion">Hello World3</p>			
+						<div id="logoWho"></div>
+						<p class="titulo tit_cotizacion">Hello World3</p>
+			
 						<div class="clear"></div>
 						<?php 
 							/* Login request to Facebook */
@@ -122,94 +99,25 @@
 
 	  						}
 						?>
-						<div class="clear"></div>			
+						<div class="clear"></div>
 					</div>
 					<div class="clear"></div>
 				</div>
-			</div>
-			<!--/.container-fluid -->
+			</div>	
+		</div> 
+		<div id="div_Team" style="display:none;">
+			<? include('equipo.php'); ?>
 		</div>
-		<!--/.navbar-inner -->
-	</div>
-	<!--/.navbar -->
+	</body>
+</html>
 
+<script type="text/javascript">	
+	$("document").ready(function() {
+		$('#a_team').click(function(){
+			$('#div_Team').css('display', 'block');
+			$('#div_who').css('display', 'none');			   
+		 });
 
+	});
+</script>
 
-</header>
-
-
-		
-		
-		
-		<div id="etapasCont" class=""><div class="containerDiv" id="etapas">
-		<div class="infoContainer">
-			<div id="logoWho"></div>
-			<p class="titulo tit_cotizacion">Hello World3</p>
-			
-			
-			
-			<div class="clear"></div>
-
-
-				
-				
-
-
-				
-
-
-				
-
-				
-
-
-
-
-			
-
-
-			<div class="clear"></div>
-			
-		</div>
-
-		
-		
-
-
-		<div class="clear"></div>
-
-
-
-		<script type="text/javascript">
-	
-			$("document").ready(function() {
-				/*$(".servicios_each").hover(function(){
-					//$(this).find("div.icon_servicios").fadeOut(200);
-					//$(this).find("div.icon_servicios").fadeIn(200);
-					$(this).find("div.icon_servicios").css("opacity","0.9");
-				});*/
-
-			
-
-			});
-	
-		</script></div></div>
-		
-		
-		
-		
-		
-
-		
-
-	</div> 
-	
-
-
-		
-
-		
-	
-
-
-</body></html>
