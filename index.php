@@ -1,11 +1,6 @@
 
 <?php 
 
-
-//	include 'session.php';
-
-//	include 'conexion.php';
-
 	require_once("src/facebook.php");
 
 	  $config = array();

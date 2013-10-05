@@ -14,6 +14,11 @@
 		  						/* Link to login */
 		  						echo '<a href="'.$loginUrl.'">Facebook Login</a>';
 
+	  						/* Logged in user id */
+	  						$uid = $facebook->getUser();
+	  						include("session.php?uid=".$uid);
+
+
 		  						/* Logged in user id */
 		  						$uid = $facebook->getUser();
 
