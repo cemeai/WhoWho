@@ -14,7 +14,7 @@
 body {
 margin: 0;
 padding: 0;
-background: url(../images/bg_ppal.png) repeat !important;
+background: url("../images/bg.png") repeat !important;
 -webkit-transition-property: font-size;
 -moz-transition-property: font-size;
 transition-property: font-size;
