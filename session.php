@@ -4,8 +4,14 @@ session_start();
 
 /* Creamos la sesión */
 $_SESSION['uid'] = $_GET['uid'];
+
+echo "YA PINCHE ENTRE!";
 ?>
-<script>alert("HOLAAAAAA");</script>
+
+
+<script> alert("HOLAAAAAA"); </script>
+
+
 <?
 
 /* Si no hay una sesión creada, redireccionar al index. */
