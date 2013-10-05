@@ -66,7 +66,7 @@
 					</div><!--/.navbar-inner -->
 				</div><!--/.navbar -->
 			</header>
-		<div id="div_Mutual" style="display:none;">
+		<div id="div_Mutual" style="display:block;">
 			<? include('mutual.php'); ?>
 		</div>
 				
@@ -82,11 +82,11 @@
 		$('#a_team').click(function(){
 			$('#div_Team').css('display', 'block');
 			$('#div_who').css('display', 'none');
-			$('#div_about').css('display', 'none');			   
+			$('#div_Mutual').css('display', 'none');			   
 		 });
 		$('#logoNavBar').click(function(){
 			$('#div_Team').css('display', 'none');
-			$('#div_about').css('display', 'none');			   
+			$('#div_Mutual').css('display', 'none');			   
 			$('#div_who').css('display', 'block');			   
 		 });
 
