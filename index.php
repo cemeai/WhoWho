@@ -1,4 +1,6 @@
-<?php
+
+<?php include 'conexion.php';
+
 	require_once("src/facebook.php");
 
 	  $config = array();
@@ -37,9 +39,39 @@
 		<script src="/js/bootstrap.min.js"></script>
 		<script src="/js/collapse-bootstrap.min.js"></script>
 		<script src="/js/bootstrap-collapse.js"></script>
+<<<<<<< HEAD
+        <title>SYSTHEAM</title>
+	<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script><script type="text/javascript">
+
+
+
+		
+
+		$("document").ready(function() {
+
+			});
+					 
+
+	</script></head>
+	
+	<?php
+      
+    /*GET PARRAFOS OHANA*/
+    $query = "SELECT * FROM questions"; 
+    $result= mysql_query($query) or die (mysql_error());
+
+	while($row = mysql_fetch_array($result))
+	  {
+	  echo $row['idQuestion'] . " " . $row['question'];
+	  echo "<br>";
+	  }
+	?>
+	
+=======
         <title>WhoWho?</title>
 		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
 	</head>
+>>>>>>> aeeff28b1d695d18ba5d720c3d456fbc80f317c0
 
 	<body>
 		<div id="wrap">
