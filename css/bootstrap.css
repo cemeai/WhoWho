@@ -29,16 +29,36 @@ transition: background-position 1.4s ease-in-out 0.3s;
 }
 
 .containerDiv {
-max-width: 980px;
+max-width: 95%;
 width: 100%;
 margin: 0px auto;
 }
 
+#logoWho_ft{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 47px;
+  height: 38px;
+  float: left;
+  background-image: url(../images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#logoWho{
+  background: url("../images/logo.png");
+  width: 234px;
+  height: 218px;
+}
+
 #logoNavBar {
-float: left ;
-max-width: 190px;
+float: left;
+max-width: 54px;
 max-height: 38px;
 width: 100%;
+margin-right: 30px;
+border-right: 1px solid rgba(213, 213, 213, 0.08);
 }
 
 #icon-about.iconoNav{

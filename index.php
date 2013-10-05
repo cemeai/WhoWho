@@ -40,19 +40,7 @@
 
 	<body>
 
-	<!-- Iconos de 50 x 40 px -->
-	<div id="rightBar">
-		<div id="r_inicio" class="rightMenu"></div>
-		<div id="r_acerca" class="rightMenu"></div>
-		<div id="r_equipo" class="rightMenu"></div>
-		<div id="r_servicios" class="rightMenu"></div>
-		<div id="r_portafolio" class="rightMenu"></div>
-		<div id="r_contacto" class="rightMenu"></div>
-	</div>
-
 	<div id="wrap">
-				
-
 		
 <header>
 
@@ -62,16 +50,7 @@
 			<div class="containerDiv">
 				
 				<div id="logoNavBar">
-					<a class="logoBar" href="#" name="top"><div style="margin: 0 auto;
-					width: 100%;
-					max-width: 190px;
-					height: 38px;
-					float: left;
-					background-image: url(../images/logoblancohdr.png);
-					background-size: contain;
-					background-repeat: no-repeat;
-					cursor: pointer;
-					"></div></a>
+					<a class="logoBar" href="#" name="top"><div id="logoWho_ft"></div></a>
 
 				</div>
 				<div class="nav-collapse collapse">
@@ -103,6 +82,7 @@
 		
 		<div id="etapasCont" class=""><div class="containerDiv" id="etapas">
 		<div class="infoContainer">
+			<div id="logoWho"></div>
 			<p class="titulo tit_cotizacion">Hello World3</p>
 			
 			
