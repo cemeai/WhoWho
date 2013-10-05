@@ -1,5 +1,3 @@
-
-
 <?php
 // Create connection
 $$dbhost = "ftp.doscerodesign.com";
