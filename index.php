@@ -13,9 +13,12 @@
 		<meta name="viewport" content="?width=320?/">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="Shortcut Icon" type="image/x-icon" href="../images/icono.png">
-		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="../css/bootstrap-responsive.css">
-		<link rel="stylesheet" type="text/css" href="../css/reset.css">
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap-responsive.css" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/effects.css" />		     
+		<link href="../css/adipoli.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="../js/validar.js"></script>	
 		<script src="/js/bootstrap.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
@@ -153,15 +156,4 @@
 
 </body></html>
 
-<?
-  require_once("src/facebook.php");
-  require_once("conection.php");
-
-  $config = array();
-  $config['whowhoID'] = '446634545453831';
-  $config['secret'] = '	a5e2d45e69944736853f3fe39449e924';
-  $config['fileUpload'] = false; // optional
-
-  $facebook = new Facebook($config);
-?>
 
