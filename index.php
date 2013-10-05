@@ -2,7 +2,7 @@
 <?php 
 
 
-	include 'session.php';
+//	include 'session.php';
 
 //	include 'conexion.php';
 
