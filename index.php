@@ -1,3 +1,4 @@
+<?php include 'conexion.php'; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -35,7 +36,18 @@
 
 	</script></head>
 	
-		
+	<?php
+      
+    /*GET PARRAFOS OHANA*/
+    $query = "SELECT * FROM questions"; 
+    $result= mysql_query($query) or die (mysql_error());
+
+	while($row = mysql_fetch_array($result))
+	  {
+	  echo $row['idQuestion'] . " " . $row['question'];
+	  echo "<br>";
+	  }
+	?>
 	
 
 	<body>
