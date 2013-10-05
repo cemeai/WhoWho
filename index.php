@@ -1,5 +1,7 @@
 
-<?php include 'conexion.php';
+<?php 
+
+	include 'conexion.php';
 
 	require_once("src/facebook.php");
 
@@ -39,14 +41,10 @@
 		<script src="/js/bootstrap.min.js"></script>
 		<script src="/js/collapse-bootstrap.min.js"></script>
 		<script src="/js/bootstrap-collapse.js"></script>
-
-       
         <title>WhoWho?</title>
 		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
 	</head>
-	
-	
-	
+
 	<body>
 		<div id="wrap">
 			<header>
