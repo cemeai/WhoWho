@@ -3,11 +3,11 @@
 session_start();
 
 /* Creamos la sesión */
-$_SESSION['id'] = $_POST['id'];
+$_SESSION['uid'] = $_GET['uid'];
 
 /* Si no hay una sesión creada, redireccionar al index. */
-if(empty($_SESSION['username'])) { // Recuerda usar corchetes.
-	header('Location: index.html');
+if(empty($_SESSION['uid'])) { // Recuerda usar corchetes.
+	header('Location: index.php');
 } // Recuerda usar corchetes
 ?>
 
@@ -21,7 +21,7 @@ if(empty($_SESSION['username'])) { // Recuerda usar corchetes.
 <h2>Mostramos los datos guardados</h2>
 <section>
 <p>
-Tu nombre de usuario es <?=$_SESSION['username'];?>
+Tu nombre de usuario es <?=$_SESSION['uid'];?>
 </p>
 </section>
 </div>

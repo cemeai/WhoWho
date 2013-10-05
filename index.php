@@ -1,7 +1,7 @@
 
 <?php 
 
-	include 'conexion.php';
+	include 'session.php';
 
 	require_once("src/facebook.php");
 
