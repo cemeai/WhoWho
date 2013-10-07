@@ -12,7 +12,7 @@
 
 	  $params = array(
 		  'scope' => 'read_stream',
-		  'redirect_uri' => 'http://whowho.herokuapp.com/'
+		  'redirect_uri' => 'http://s.20d.mx/'
 		);
 
 ?>
